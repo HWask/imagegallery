@@ -7,3 +7,6 @@ the original sized image.
 
 ![Screenshot](https://i.imgur.com/pSd3Gvr.png)
 ![Screenshot](https://i.imgur.com/Mi1ag6T.png)
+
+
+Dependencies: express, (cors only if your backend is hosted on a different domain than frontend)
