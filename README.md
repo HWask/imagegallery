@@ -6,6 +6,9 @@ When an image is uploaded the backend creates a thumbnail by resizing the image 
 the original sized image.
 
 ![Screenshot](https://i.imgur.com/pSd3Gvr.png)
+
+
+
 ![Screenshot](https://i.imgur.com/Mi1ag6T.png)
 
 
