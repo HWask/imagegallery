@@ -1,0 +1,80 @@
+#pagination {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100vw;
+}
+
+#center {
+	text-align:center;
+}
+
+.page {
+  text-decoration: none;
+  color:black;
+  margin-left: 4px;
+  display:inline-block;
+  width:20px;
+  height:20px;
+  line-height: 20px;
+  //border:1px solid black;
+  //border-radius: 5px;
+	text-align: center;
+}
+
+.page:hover {
+  background-color: grey;
+}
+
+.active, .active:hover {
+  background-color:green;
+}
+
+
+body {
+	overflow:hidden;
+}
+
+#images {
+	margin-top:30px;
+	margin-bottom:30px;
+  display: flex;
+  flex-wrap:wrap;
+  overflow:auto;
+  height:calc(100vh - 60px);
+}
+
+.image {
+	width:100%;
+}
+
+#images > a {
+	width:calc(25% - 10px);
+	padding:5px;
+	height:144px;
+}
+
+.nav {
+	width:calc(100vw - 10px);
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:green;
+	padding:5px;
+}
+
+.link {
+	float:right;
+	color:white;
+	padding-left:15px;
+	text-decoration:none;
+}
+
+form {
+	margin-top:30px;
+	padding:5px;
+}
+
+.input {
+	display:block;
+}
